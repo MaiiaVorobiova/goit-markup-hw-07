@@ -1,5 +1,9 @@
 .services {
   padding-bottom: 94px;
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .about-us-actions,
@@ -11,11 +15,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 
-  color: var(--primary-text-color);
-}
-.services-list {
-  display: flex;
-  justify-content: space-between;
+  color: $primary-text-color;
 }
 
 .thumb {
